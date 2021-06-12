@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="src/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,500;0,600;1,100&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <input type="text" placeholder="Enter City" class="search" />
+        <input type="submit" value="Search" class="search" />
+      </form>
+      <div class="row">
+        <div class="col">
+          <h1>
+            <em> LAGOS </em>
+          </h1>
+          <h2>
+            CURRENTLY
+            <br />
+            32°C <img src="src/clear-day.svg" class="current-emoji" />
+          </h2>
+
+          <p class="current-weather">H: 33° | L: 25°C</p>
+        </div>
+        <div class="col">
+          <p class="current-stats">
+            PRECIPITATION: 1% <br />
+            HUMIDITY: 64% <br />
+            WIND: 8mph
+          </p>
+        </div>
+      </div>
+
+      <hr />
+      <br />
+
+      <div class="row">
+        <div class="col-4">
+          <strong> THURSDAY </strong>
+
+          <br />
+          <img src="src/cloudy-day-1.svg" alt="" />
+          <p>
+            <strong> H: 33° | L: 25°C </strong>
+          </p>
+        </div>
+        <div class="col-4">
+          <strong> FRIDAY </strong>
+          <br />
+          <img src="src/cloudy-day-1.svg" alt="" />
+          <p>
+            <strong> H: 33° | L: 24°C </strong>
+          </p>
+        </div>
+        <div class="col-4">
+          <strong> SATURDAY </strong>
+          <br />
+          <img src="src/cloudy-day-1.svg" alt="" />
+          <p>
+            <strong> H: 33° | L: 25°C </strong>
+          </p>
+        </div>
+
+        <div class="col-4">
+          <strong> SUNDAY </strong>
+
+          <br />
+          <img src="src/rainy-6.svg" alt="" />
+          <p>
+            <strong> H: 32° | L: 24°C </strong>
+          </p>
+        </div>
+        <div class="col-4">
+          <strong> MONDAY </strong>
+
+          <br />
+          <img src="src/cloudy-day-1.svg" alt="" />
+          <p>
+            <strong> H: 33° | L: 25°C </strong>
+          </p>
+        </div>
+        <div class="col-4">
+          <strong> TUESDAY </strong>
+
+          <br />
+          <img src="src/cloudy-day-1.svg" alt="" />
+          <p>
+            <strong> H: 33° | L: 25°C </strong>
+          </p>
+          <br />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
